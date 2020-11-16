@@ -1,3 +1,11 @@
+# React.js with diagram / learning 
+- Components are used to create modular UI elements. 
+- propTypes define data types for all component props. 
+- Application works as expected. Application is well planned and includes a component diagram.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
