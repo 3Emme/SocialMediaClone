@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,15 +10,100 @@ body {
     padding: 40px;
     font-family: Arial;
     text-align: center;
-  }
+  } */
 
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
 
 h1{
-  color:#ffd166;
-  background-color: #118ab2
+  color: goldenrod;
+  
+}
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f4f1de;
+  font-family:'Space Grotesk', sans-serif;
+}
+
+.header {
+  background-color: #3d405b;
+  text-align: center;
+  padding: 5px;
+  font-family: 'Damion', cursive;
+}
+.userPanel {
+  display: block;
+  float: left;
+  border: 1px solid #e07a5f;
+  background-color: #f4f1de;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 0px;
+  text-align: center;
+  width: 15%;
+}
+.addPost{
+  text-align: center;
+  width: 57%;
+  margin: 0 auto;
+  padding: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid #e07a5f;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.postListBox {
+  margin-top: 5px;
+  background-color: #f4f1de;
+  width: 57%;
+  border: 1px solid #e07a5f;
+  padding: 50px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+.name{
+  font-weight: bold;
+}
+.post{
+  width: 100%;
+  margin: 0 auto;
+}
+.userListBox {
+  display: block;
+  float: right;
+  border: 1px solid #e07a5f;
+  background-color: #3d405b;
+  width: 15%;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  margin-right: 0px;
+
+  color: #f2cc8f;
+}
+.userBox{
+  border: 1px solid #e07a5f;
+  text-align: center;
+  margin: 5px;
+}
+.footer {
+  font-family: 'Damion', cursive;
+  font: 30px;
+  padding: 5px;
+  text-align: center;
+  background: #3d405b;
+  margin-top: 10px;
+  /* border: 15px solid #f4f1de; */
+}
+
+#headshot{
+  width: 100%;
+  border-radius: 50%;
 }

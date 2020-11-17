@@ -23,14 +23,16 @@ const masterPostList = [
 function PostList() {
   return (
     <React.Fragment>
-      <h1>Post List</h1>
-      <hr />
-      {masterPostList.map((post, index) =>
-        <Post // JSX tags being used props to child component which is the Post
-          tweet={post.tweet}
-          name={post.name}
-          key={index} />
-      )}
+      <div class="postListBox">
+        <h1>Post List</h1>
+        <hr />
+        {masterPostList.map((post, index) =>
+          <Post // JSX tags being used props to child component which is the Post
+            tweet={post.tweet}
+            name={post.name}
+            key={index} />
+        )}
+      </div>
     </React.Fragment>
   )
 }

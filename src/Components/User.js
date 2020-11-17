@@ -4,9 +4,11 @@ import PropTypes from "prop-types";
 function User(props) {
   return (
     <React.Fragment>
-      <h5>{props.userName}</h5>
-      <p>{props.info}</p>
-      <hr />
+      <div class="userBox">
+        <h5>{props.userName}</h5>
+        {/* <p>{props.info}</p> */}
+        <button type="button">Click Me!</button>
+      </div>
     </React.Fragment>
   );
 }

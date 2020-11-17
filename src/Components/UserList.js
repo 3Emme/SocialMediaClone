@@ -19,16 +19,17 @@ const masterUserList = [
 function UserList() {
   return (
     <React.Fragment>
-
-      <h1>Users</h1>
-      <hr />
-      {masterUserList.map((user, index) =>
-        <User
-          userName={user.userName}
-          info={user.info}
-          // button
-          key={index} />
-      )}
+      <div class="userListBox">
+        <h1>Users</h1>
+        <hr />
+        {masterUserList.map((user, index) =>
+          <User
+            userName={user.userName}
+            // info={user.info}
+            // button
+            key={index} />
+        )}
+      </div>
     </React.Fragment>
   )
 }

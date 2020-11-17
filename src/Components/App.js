@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./Header";
+import Footer from "./Footer";
 import PostList from "./PostList";
 import UserPanel from "./UserPanel";
 import AddPost from "./AddPost";
@@ -11,9 +12,10 @@ function App() {
     <React.Fragment>
       <Header />
       <UserPanel />
+      <UserList />
       <AddPost />
       <PostList />
-      <UserList />
+      <Footer />
     </React.Fragment>
   );
 }
